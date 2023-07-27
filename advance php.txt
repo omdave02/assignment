@@ -1,0 +1,136 @@
+(1) what is object oriented programming.
+ans- Object-oriented programming is a style of programming characterized by the identification of classes of objects closely linked with the methods (functions) with which they are associated.
+
+(2)What Are Properties Of Object Oriented Systems
+ans- classes, objects, encapsulation, inheritance, abstraction, polymorphism.
+
+(3)What Is Difference Between Class And Interface
+ans- =>CLASS	
+(1)The ‘class’ keyword is used to create a class.	
+(2)An object of a class can be created.	
+(3)Class doesn’t support multiple inheritance.	
+
+ => INTERFACE
+(1)The ‘interface’ keyword is used to create an interface.
+(2)An object of an interface cannot be created.
+(3)Interface supports multiple inheritance.
+
+(4)What Is Overloading.
+ans-overloading is the ability to create multiple functions of the same name with different implementations.
+
+(5)What Is T_PAAMAYIM_NEKUDOTAYIM (Scope Resolution Operator (::) with Example.
+ans-The Scope Resolution Operator (also called Paamayim Nekudotayim) or in simpler terms, the double colon, is a token that allows access to static, constant, and overridden properties or methods of a class.
+
+(6)What are the differences between abstract classes and interfaces.
+ans-Abstract class	
+1) Abstract class can have abstract and non-abstract methods.	
+2) Abstract class doesn't support multiple inheritance.	
+3) Abstract class can have final, non-final, static and non-static variables.	
+
+Interface
+1)Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+2)Interface supports multiple inheritance.
+3)Interface has only static and final variables. 
+
+(7)Define Constructor and Destructor.
+ans-  constructor is the constructor which doesn't take any argument. It has no
+parameter
+      Destructor is an instance member function which is invoked automatically whenever an object is going to be destroyed. 
+
+(8)How to Load Classes in PHP.
+ans-PHP load classes are used for declaring its object etc. in object oriented applications. 
+
+(9)How to Call Parent Constructor.
+ans-Parent constructors are not called implicitly if the child class defines a constructor. In order to run a parent constructor, a call to  parent::__construct() within the child constructor is required. If the child does not define a constructor then it may be inherited from the parent class just like a normal class method
+
+(10)Are Parent Constructor Called Implicitly When Create An Object Of Class.
+ans-Parent constructors are not called implicitly if the child class defines a constructor. 
+
+(11)What Happen, If Constructor Is Defined As Private Or Protected.
+ans-If a constructor is declared as private, then its objects are only accessible from within the declared class. You cannot access its objects from outside the constructor class. 
+
+(12)What are PHP Magic Methods/Functions? List them Write program for Static Keyword in PHP.
+ans- keywords=>__construct(), __destruct(), __call(), __get(), __set(), __isset(), __unset()
+
+(13)Create multiple Traits and use it in to a single class.
+ans-in visual studio
+
+
+(14) Write PHP Script of Object Iteration.
+ans- in visual studio
+
+
+
+(15)Use of The $this keyword.
+ans-The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name
+
+
+(16)
+
+
+
+
+
+
+=> JQUERY
+
+(1)What is jQuery.
+ANS-jQuery is a small, light-weight and fast JavaScript library. It is cross-platform and supports different types of browsers.
+
+(2)How are JavaScript and jQuery different.
+ANS- Javascript
+(1) JavaScript is a programming language.	 	
+(2) There are no special symbols to define JavaScript like JQuery.	 
+(3) The disadvantage of JavaScript is that it is not easy to use it.	
+ 	
+    Jquery
+(1) jQuery is an Application Programming Interface (API).
+(2) There are special symbols to define JQuery.
+(3) The advantage of JQuery is the ease in which one can use JQuery.
+
+(3)Which is the starting point of code execution in jQuery.
+ans-$(document). ready() function
+
+(4)Document Load Vs Window. Load() jQuery 
+ans- Document Load 
+
+The code which gets included inside $( window ).on( "load", function() { ... }) runs only once the entire page is ready (not only DOM).
+
+Note: The load() method deprecated in jQuery version 1.8. It was completely removed in version 3.0. To see its working, add jQuery version for CDN before 3.0.
+
+(window). load()
+
+ event is that the code included inside onload function will run once the entire page(images, iframes, stylesheets,etc) are loaded whereas the $(document). ready() event fires before all images,iframes etc.
+
+(5)What is the difference between prop and attr.
+ans- prop() Method
+(1)This method returns the current value.
+(2)It changes properties for that HTML tag as per the DOM tree.
+(3)Its syntax is: $(selector).prop(property)
+
+    attr() Method
+(1)This method returns the default value.
+(2)It changes attributes for that HTML tag.
+(3)Its syntax is: $(selector).attr(attribute)
+
+(6)How We Can Select The Specified <li> Element From The ListOf <li> Elements In <ul>.
+ans-The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (<ol>), an unordered list (<ul>), or a menu (<menu>). 
+In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+
+(7)In <table> Design Change The Color Of Even <tr> Elements To“green”And Change The Color Of Odd <tr> Elements To “blue” Color? Give An Example Code.
+ans-in visual studio
+
+(8)How We Can Implement Animation Effects In Jquery.
+ans-The jQuery animate() method performs custom animation using element's style properties. The animate() method changes existing style properties to the specified properties with motion.
+
+(9)Apply jQuery validation using library.
+ans-first,add jQuery library in your file. Then to define rules use simple syntax. jQuery(document). ready(function() { jQuery("#forms).
+
+(10) Create custom dynamic function for require field validator. 
+ans-in visual studio
+
+(11) Get state data by country selection (Ajax). 
+ans-in visual studio
+
+(12)Image uploading with preview.
+ans-in visual studio
