@@ -1,0 +1,20 @@
+1) explain ORM
+ANS- Object Relational Mapper (ORM) is a technique for accessing objects without considering how they relate to their source. Laravel's default ORM is Eloquent, which allows users to work with database objects and relationships using an expressive syntax. 
+ORM software works as a layer of abstraction on top of the database engine to handle database records by representing data as objects. Eloquent can automatically handle model relationships, making it easy to retrieve related models without writing complex queries. 
+
+Here are some advantages of Eloquent ORM: 
+Models can perform common database operations without coding lengthy SQL queries.
+Models allow data querying in tables, as well as inserting new records into tables.
+The process of synchronizing multiple databases running on different systems is simplified.
+
+2)Do crud using eloquent query.
+ANS-  CRUD operations under the Eloquent object-relational mapper (ORM) make it easier for Laravel developers to work with multiple databases. It performs create, retrieve, update, and delete (CRUD) operations, as well as maps object models to database tables.
+
+3)explain eloquent relationships.
+ANS- Eloquent relationships are a powerful feature of Laravel that allows developers to easily work with related data. From one-to-one to many-to-many relationships, Eloquent provides a simple and intuitive syntax to define and query these relationships.
+
+4) what is eager loading and lazy loading?
+ANS- ager loading generates all web page content as soon as possible, while lazy loading delays the display of non-essential content. Lazy loading is a great option for large page files with more content.
+
+5)Do session for employee management system.
+ANS- Employee management systems (EMS) help HR teams keep track of employee information and run organizations smoothly. They can help ensure employees work during their scheduled times and track how much time each employee spends on tasks and projects. 
